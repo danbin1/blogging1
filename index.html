@@ -1,0 +1,29 @@
+<html>
+  <head>
+      <title>로또 번호 구현</title>
+      <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css" type="text/css">
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1>랜덤 로또 번호</h1>
+      </div>
+      <div id="contents">
+				<p>1. 랜덤한 수를 담을 수 있는 배열을 만들어준다.</p>
+				<p>2. 랜덤한 수를 몇 개 담을 것인지 count 변수에 표현한다.</p>
+				<p>3. count 변수에 담긴 횟수만큼 for문을 만들어 돌린다.</p>
+				<p>4. for문 안에서 1 ~ 45까지의 랜덤한 번호를 randomNum 변수에 담는다.</p>
+				<p>5. 만약 randomNum 번호가 randomLotto 배열 안에 있는지 </p>
+				<p>   indexOf를 사용하여 결과 값이 -1이 나오면 없는 걸로 간주 </p>
+				<p>   randomLotto 배열 안에 추가.</p>
+				<p>6. 그렇지 않고 -1이 아니면 randomNum 번호가 </p>
+				<p>   randomLotto 배열 안에 있다는 걸로 간주하고 i-- i 변수의 -1를 해 </p>
+				<p>   for문을 다시 돌게 한다.</p>
+				<p>7. 마지막으로 sort()함수를 사용하여 오름차순 정렬을 해주고</p>
+				<p>   randomLotto 배열을 리턴한다.</p>
+				<img id="lotto" src="lotto.png" alt="사진">
+      </div>
+    </div>
+  </body>
+</html>

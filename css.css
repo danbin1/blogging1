@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#wrap {
+  margin: 0 auto;
+  width: 1000px;
+  height: 1000px;
+
+}
+#header {
+  width: 1000px;
+  height: 100px;
+	background-color: azure;
+	color: slategray;
+  line-height: 100px;
+  text-align: center;
+}
+#contents {
+
+}
+
+#contents p {
+  text-align: center;
+  font-weight: bold;
+}
+#contents #lotto {
+	width: 800px;
+	height: 465px;
+	display: block;
+	margin: 0 auto;
+}
